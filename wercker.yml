@@ -1,6 +1,0 @@
-box: nodesource/trusty
-build:
-    steps:
-        - script:
-            name: prepare output
-            code: rm -rf $WERCKER_ROOT/.git

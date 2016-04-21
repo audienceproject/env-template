@@ -9,4 +9,9 @@ The step takes two arguments:
 
 ## Example
 
-TODO
+```
+steps:
+    - audienceproject/env-template:
+        - input: foo.json.template
+        - output: foo.json
+```

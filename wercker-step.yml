@@ -1,5 +1,5 @@
-name: perl-template
-version: 1.0.1
+name: env-template
+version: 1.0.2
 description: Processes template files and replaces references to ENV variables, e.g. ${FOO}, with their current value.
 keywords:
   - template

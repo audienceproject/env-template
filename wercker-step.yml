@@ -1,6 +1,6 @@
 name: env-template
-version: 1.0.2
-description: Processes template files and replaces references to ENV variables, e.g. ${FOO}, with their current value.
+version: 1.0.3
+description: Processes template files and replaces references to ENV variables, e.g. ${FOO}, with their current value. use overwrite to manually set variables with syntax `var1=val1,var2=val2`
 keywords:
   - template
   - env
@@ -11,3 +11,6 @@ properties:
   output:
     type: string
     required: true
+  overwrite:
+    type: string
+    required: false
